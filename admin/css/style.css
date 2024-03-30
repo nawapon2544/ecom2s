@@ -1,0 +1,243 @@
+.form-select {
+  border-radius: 0 !important;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #E0E0E0 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+  border: 1px solid #0066FF !important;
+}
+
+.input-group-text.bg-none {
+  background: none;
+  border: none;
+  color: #424242;
+  font-weight: bolder;
+}
+
+.form-control::placeholder {
+  color: #A6ACAF !important;
+}
+
+.form-control:disabled {
+  background: none !important;
+}
+
+.form-label {
+  font-weight: bolder;
+}
+
+.form-border-none {
+  border: none !important;
+}
+
+.bg-violet {
+  background-color: #6633FF;
+}
+
+
+.validate-text {
+  margin: 7px 0;
+  color: #FF0033;
+  font-weight: bolder;
+}
+
+.validate-msg {
+  margin: 7px 0;
+  color: #FF0033;
+  font-weight: bolder;
+}
+
+.col-img {
+  width: 5%;
+}
+
+.btn {
+  font-weight: bolder;
+  min-height: 40px;
+  min-width: 30px;
+}
+
+.btn-none {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.btn-none:active {
+  outline: none;
+  background: none;
+}
+
+a.btn-none {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.btn-none:hover {
+  background: white;
+  filter: brightness(80%) !important;
+  cursor: pointer;
+}
+
+.btn-hover {
+  filter: brightness(80%) !important;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+
+.table-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.ord-bar {
+  width: max-content;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  padding: 0.75rem;
+  justify-content: space-evenly;
+  z-index: 25;
+  padding: 4px 12px;
+  background-color: #F5F5F5;
+  border-radius: 7px;
+
+}
+
+.data-list-section {
+  position: relative;
+}
+
+.list-data {
+  display: none;
+  margin-top: 12px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  height: 120px;
+  overflow-y: scroll;
+}
+
+.list-data-label {
+  display: block;
+  padding: 6px 12px;
+  margin: 4px 0px;
+}
+
+.list-data-label:hover {
+  cursor: pointer;
+  background-color: #E0E0E0;
+}
+
+.list-data-check {
+  display: none;
+}
+
+.page-link {
+  box-shadow: none !important;
+}
+
+.box-shadow {
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.product-price {
+  position: relative;
+  color: #979A9A;
+}
+
+.product-price-discount {
+  width: 100%;
+  height: 2px;
+  background-color: #979A9A;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.bg-indigo {
+  background-color: #6633FF;
+}
+
+
+.tooltip-s {
+  position: relative;
+}
+
+.tooltip-text {
+  width: max-content;
+  background-color: #17202A;
+  visibility: hidden;
+  color: white;
+  position: absolute;
+  top: -15px;
+  left: -50%;
+  padding: 2px 7px;
+  border-radius: 12px;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.label-file:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.form-check-input:hover,
+.form-check-label:hover {
+  cursor: pointer;
+}
+
+.page-link {
+  border: 1px solid #BDBDBD;
+  color: #424242;
+}
+
+.page-item.active {}
+
+.page-item.active .page-link {
+  border: 1px solid #212121;
+  background-color: #212121 !important;
+}
+
+@keyframes showtooltip {
+  from {
+    visibility: visible;
+  }
+
+  to {
+    visibility: hidden;
+  }
+}
+
+@media print {
+  .printer-section {
+    display: none !important;
+  }
+
+}
+
+* {
+  font-family: Poppins, SF Thonburi;
+  box-sizing: border-box;
+}

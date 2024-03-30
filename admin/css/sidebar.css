@@ -1,0 +1,62 @@
+.menu-bar {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items {
+  font-size: 1rem;
+  width: 100%;
+  padding: 7px;
+  border-radius: 7px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.menu-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #212121;
+  font-weight: bold;
+  margin: 0;
+}
+.menu-link i{
+  font-size: 1.2rem;
+}
+.menu-link:hover {
+  color: #212121;
+}
+
+.menu-items:hover {
+  background-color: #E0E0E0;
+}
+
+
+.collapese-icon {
+  position: absolute;
+  right: 20px;
+}
+
+.menu-items.active {
+  background-color: #0066FF;
+  border: 1px solid white;
+  font-weight: bolder;
+  color: white;
+}
+
+.menu-items.active a {
+  color: white;
+}
+
+.menu-items.active i {
+  color: white;
+}
+
+.menu-toggle {
+  color: #f5f5f5;
+  background: none;
+  outline: 0;
+  border: 0;
+}

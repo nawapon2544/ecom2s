@@ -1,0 +1,23 @@
+$('#add-address').click(function() {
+  $('.validate-msg').remove()
+  $('#address-user-modal').modal('show')
+  $('#address-user-form')[0].reset()
+  $('.address-user-target')
+    .filter(`[data-target="district"]`)
+    .prop('disabled', true)
+  $('.address-user-target')
+    .filter(`[data-target="subdistrict"]`)
+    .prop('disabled', true)
+
+  $('#address-district').css('display', 'none')
+  $('#address-subdistrict').css('display', 'none')
+  $('#address-district').children().remove()
+  $('#address-subdistrict').children().remove()
+
+  setActiveTargetButton()
+  setPropElement(getProvinceEl(), 'checked', false)
+  disabledAddressTarget('district')
+  disabledAddressTarget('subdistrict')
+  toggleAddressTab('address-province')
+  setStateProp($('#address-submit'), 'data-state', 'add')
+})

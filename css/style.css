@@ -1,0 +1,134 @@
+.form-control ,.form-select{
+  border-radius: 0px !important;
+  border: 1px solid #ECF0F1 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+  border: 1px solid #B3B6B7 !important;
+
+}
+
+
+.form-label {
+  font-weight: bold;
+}
+
+.toast {
+  z-index: 100;
+}
+
+.toast-icon {
+  font-size: 2rem;
+}
+
+#toast.hidden-header .toast-header {
+  display: none;
+}
+
+.validate-msg {
+  font-size: 0.8em;
+  margin: 7px 0;
+  color: #E53935;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 2rem;
+}
+
+.carousel-indicators button {
+  background-color: #979A9A !important;
+}
+
+.carousel-indicators .active {
+  background-color: #17202A !important;
+}
+
+.btn-hover:hover {
+  filter: brightness(80%) !important;
+}
+
+.btn-close {
+  box-shadow: none !important;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+.col-img {
+  width: 10%;
+}
+
+.table-img {
+  width: 100%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.cart-qty {
+  text-align: center;
+  padding: 4px;
+  width: 80px;
+  border: 2px solid #ECF0F1;
+  outline: 0;
+}
+
+.cart-qty:focus {
+  border-color: #B3B6B7;
+}
+
+.check-address.check-sub-district {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price {
+  position: relative;
+  color: #979A9A;
+}
+
+.product-price-discount {
+  width: 100%;
+  height: 2px;
+  background-color: #979A9A;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.register {
+  color: #000000;
+  text-decoration: none;
+}
+
+.register:hover {
+  color: #566573;
+}
+
+.login {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #0066FF;
+  font-weight: bolder;
+  background: none;
+}
+
+.login:hover {
+  color: #0066FF;
+}
+
+.btn-hover:hover {
+  filter: brightness(80%);
+}
+
+.bg-none {
+  background: none;
+  border: none;
+  outline: none;
+}

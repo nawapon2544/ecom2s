@@ -1,0 +1,63 @@
+/* .address-section{
+  height: 150px;
+  overflow-y: scroll;
+}
+
+#address-section{
+  display: none;
+}
+
+
+#edit-address-area{
+  display: none;
+} */
+/* . */
+#address-control {
+  display: none;
+  justify-content: end;
+}
+
+#target-control {
+  display: none;
+}
+
+#address-section {
+  display: none;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+#address-district,
+#address-subdistrict {
+  display: none;
+}
+
+.address-user-target {
+  padding: 6px 12px;
+}
+
+.address-user-target.active {
+  background-color: #E5E7E9 !important;
+  color: #424949;
+}
+
+.address-label {
+  padding: 6px 12px;
+  display: block;
+}
+
+.address-label:hover {
+  cursor: pointer;
+  background-color: #EAEDED;
+}
+
+.address-label-subDistrict {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address-label.active {
+  background-color: #E5E7E9;
+  border-color: #E5E7E9;
+}

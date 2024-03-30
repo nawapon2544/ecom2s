@@ -1,0 +1,22 @@
+.address {
+  padding: 0;
+  margin: 0;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.check-address.active {
+  background-color: #E5E7E9;
+  border-color: #E5E7E9;
+}
+
+
+
+.address-target.active {
+  background-color: #E5E7E9;
+  border-color: #E5E7E9;
+}
+
+#address-area {
+  display: none;
+}

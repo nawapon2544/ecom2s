@@ -1,0 +1,18 @@
+.payment-bank-name {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  color: #424242;
+  font-weight: bolder;
+}
+
+.payment-bank-name .form-check-input,
+.payment-bank-name .form-check-label {
+  margin: 0 4px;
+}
+
+.icon-bank {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}

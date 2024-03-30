@@ -1,0 +1,29 @@
+.form-check-label {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.form-check-input {
+  font-size: 1rem;
+  margin-right: 4px;
+}
+
+.facebook {
+  color: #0066FF;
+}
+
+.instagram {
+  color: #FF0066;
+}
+
+.youtube {
+  color: #FF0000;
+}
+
+.twitter {
+  color: #0099FF;
+}
+
+.line {
+  color: #00CC66;
+}

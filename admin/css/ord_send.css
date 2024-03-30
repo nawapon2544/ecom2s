@@ -1,0 +1,20 @@
+.delivery-label {
+  display: block;
+}
+
+.delivery-list {
+  display: none;
+  position: relative;
+  height: 100px;
+  overflow-y: scroll;
+  margin: 12px 0;
+}
+
+.delivery-check-items:hover {
+  cursor: pointer;
+  background-color: #E0E0E0;
+}
+
+.page-item.active{
+  background-color: black !important;
+}

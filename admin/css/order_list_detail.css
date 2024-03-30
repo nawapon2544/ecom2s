@@ -1,0 +1,11 @@
+@media print {
+  .bar {
+    display: none !important;
+  }
+
+
+  #order-detail {
+    display: none;
+  }
+}
+

@@ -1,0 +1,31 @@
+.buy-product-img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+#statement {
+  display: none;
+}
+
+#buy-product-address {
+  display: none;
+}
+
+.address {
+  display: none;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.bank-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.qrcode {
+  width: 100%;
+  object-fit: contain;
+  height: auto;
+}

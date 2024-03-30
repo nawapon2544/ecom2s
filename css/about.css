@@ -1,0 +1,50 @@
+#about-wrapper {
+  background-color: #F5F5F5;
+  padding: 12px;
+  border: 1px solid gainsboro;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#contact-brand {
+  color: #CC0000;
+}
+
+.about-items {
+  list-style: none;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.about-link {
+  padding: 7px 12px;
+  display: block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #424242;
+}
+
+.about-link:hover {
+  color: #CC0000;
+}
+
+.about-link.active {
+  background-color: #E0E0E0;
+  font-weight: bolder;
+  color: #424242;
+  border-right: 6px solid #CC0000;
+}
+
+.about-us-section {
+  display: none;
+}
+@media only screen and (max-width:992px) {
+  #about-wrapper{
+    margin: 2rem 0;
+  }
+}
